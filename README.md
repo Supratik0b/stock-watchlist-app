@@ -6,13 +6,13 @@ Polished React + Vite app implementing the assignment requirements.
 
 Requirements: Node.js installed
 
-# install
+ install
 npm install
 
-# dev server
+ dev server
 npm run dev
 
-# run tests (requires jest)
+ run tests (requires jest)
 npm run test
 
 

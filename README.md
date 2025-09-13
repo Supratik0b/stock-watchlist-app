@@ -4,14 +4,16 @@ Polished React + Vite app implementing the assignment requirements.
 
 ## Run locally
 
-1. Install dependencies
+Requirements: Node.js installed
+
+# install
 npm install
 
-2. Start dev server
+# dev server
 npm run dev
 
-3. Run tests
-npm test
+# run tests (requires jest)
+npm run test
 
 
 ## Clarifying questions I would have asked

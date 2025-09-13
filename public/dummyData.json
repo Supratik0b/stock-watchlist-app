@@ -1,0 +1,128 @@
+[
+  {
+    "symbol": "RELIANCE",
+    "cmp": 1036.79,
+    "fut": 1025.47,
+    "prevClose": 1049.85,
+    "updatedAt": 1757779284209
+  },
+  {
+    "symbol": "TCS",
+    "cmp": 1024.11,
+    "fut": 1028.54,
+    "prevClose": 1004.97,
+    "updatedAt": 1757780790914
+  },
+  {
+    "symbol": "INFY",
+    "cmp": 1089.58,
+    "fut": 1080.89,
+    "prevClose": 1102.35,
+    "updatedAt": 1757780846945
+  },
+  {
+    "symbol": "HDFCBANK",
+    "cmp": 1102.67,
+    "fut": 1109.84,
+    "prevClose": 1106.75,
+    "updatedAt": 1757781386054
+  },
+  {
+    "symbol": "ICICIBANK",
+    "cmp": 1148.14,
+    "fut": 1156.67,
+    "prevClose": 1135.16,
+    "updatedAt": 1757780537600
+  },
+  {
+    "symbol": "HINDUNILVR",
+    "cmp": 1148.17,
+    "fut": 1161.86,
+    "prevClose": 1155.41,
+    "updatedAt": 1757779908889
+  },
+  {
+    "symbol": "AXISBANK",
+    "cmp": 1201.24,
+    "fut": 1200.32,
+    "prevClose": 1213.97,
+    "updatedAt": 1757781242914
+  },
+  {
+    "symbol": "LT",
+    "cmp": 1258.23,
+    "fut": 1245.15,
+    "prevClose": 1272.06,
+    "updatedAt": 1757779679139
+  },
+  {
+    "symbol": "SBIN",
+    "cmp": 1277.14,
+    "fut": 1265.12,
+    "prevClose": 1266.14,
+    "updatedAt": 1757781277451
+  },
+  {
+    "symbol": "KOTAKBANK",
+    "cmp": 1305.6,
+    "fut": 1291.49,
+    "prevClose": 1291.28,
+    "updatedAt": 1757781729241
+  },
+  {
+    "symbol": "BAJFINANCE",
+    "cmp": 1327.29,
+    "fut": 1325.72,
+    "prevClose": 1319.93,
+    "updatedAt": 1757779696337
+  },
+  {
+    "symbol": "MARUTI",
+    "cmp": 1309.19,
+    "fut": 1311.43,
+    "prevClose": 1328.88,
+    "updatedAt": 1757781834905
+  },
+  {
+    "symbol": "ADANIENT",
+    "cmp": 1350.85,
+    "fut": 1350.74,
+    "prevClose": 1340.18,
+    "updatedAt": 1757782206427
+  },
+  {
+    "symbol": "ITC",
+    "cmp": 1411.11,
+    "fut": 1402.26,
+    "prevClose": 1393.2,
+    "updatedAt": 1757780492207
+  },
+  {
+    "symbol": "NTPC",
+    "cmp": 1420.68,
+    "fut": 1406.33,
+    "prevClose": 1432.19,
+    "updatedAt": 1757781575222
+  },
+  {
+    "symbol": "ONGC",
+    "cmp": 1457.57,
+    "fut": 1472.19,
+    "prevClose": 1450.38,
+    "updatedAt": 1757780324687
+  },
+  {
+    "symbol": "POWERGRID",
+    "cmp": 1446.01,
+    "fut": 1435.54,
+    "prevClose": 1460.71,
+    "updatedAt": 1757780126601
+  },
+  {
+    "symbol": "SUNPHARMA",
+    "cmp": 1500.77,
+    "fut": 1501.13,
+    "prevClose": 1498.56,
+    "updatedAt": 1757779910312
+  }
+]

@@ -2,8 +2,14 @@ import React from 'react'
 import { timeAgo } from '../utils/formatters'
 
 export default function StockCard({ stock, onClick, view = 'A', onToggle }) {
- 
-  const change = stock.percentageChange
+  
+  const change =
+    stock.percentageChange !== undefined
+      ? stock.percentageChange
+      : stock.prevClose
+      ? ((stock.cmp - stock.prevClose) / stock.prevClose) * 100
+      : 0; 
+
   const sign = change >= 0 ? 'green' : 'red'
 
   return (
@@ -40,4 +46,7 @@ export default function StockCard({ stock, onClick, view = 'A', onToggle }) {
     </div>
   )
 }
+
+
+
 

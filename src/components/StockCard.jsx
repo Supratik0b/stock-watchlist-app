@@ -1,8 +1,9 @@
 import React from 'react'
-import { pctChange, timeAgo } from '../utils/formatters'
+import { timeAgo } from '../utils/formatters'
 
 export default function StockCard({ stock, onClick, view = 'A', onToggle }) {
-  const change = pctChange(stock.cmp, stock.prevClose)
+ 
+  const change = stock.percentageChange
   const sign = change >= 0 ? 'green' : 'red'
 
   return (
@@ -12,12 +13,16 @@ export default function StockCard({ stock, onClick, view = 'A', onToggle }) {
       <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 8 }}>
         <div>
           <div><strong>Capital:</strong> ₹{stock.cmp}</div>
-          <div className={sign} style={{ fontWeight: 700, marginTop: 6 }}>{change.toFixed(2)}%</div>
+          <div className={sign} style={{ fontWeight: 700, marginTop: 6 }}>
+            {change.toFixed(2)}%
+          </div>
         </div>
 
         <div style={{ textAlign: 'right' }}>
           <div><strong>Futures:</strong> ₹{stock.fut}</div>
-          <div className="small" style={{ marginTop: 6 }}>{timeAgo(stock.updatedAt)}</div>
+          <div className="small" style={{ marginTop: 6 }}>
+            {timeAgo(stock.updatedAt)}
+          </div>
         </div>
       </div>
 
@@ -35,3 +40,4 @@ export default function StockCard({ stock, onClick, view = 'A', onToggle }) {
     </div>
   )
 }
+

@@ -6,7 +6,6 @@ import SearchBar from '../components/SearchBar'
 import SortMenu from '../components/SortMenu'
 import SkeletonCard from '../components/SkeletonCard'
 import { fetchDummyData } from '../api/fetchDummyData'
-import { pctChange } from '../utils/formatters'
 
 export default function Watchlist(){
   const [stocks, setStocks] = useState([])
@@ -41,10 +40,13 @@ export default function Watchlist(){
       const [key,dir] = sort.split('_')
       arr.sort((a,b)=>{
         let va=0,vb=0
-        if(key==='pct'){ va = pctChange(a.cmp,a.prevClose); vb=pctChange(b.cmp,b.prevClose) }
+        if(key==='pct'){ 
+          va = a.percentageChange ?? 0
+          vb = b.percentageChange ?? 0
+        }
         if(key==='cmp'){ va = a.cmp; vb = b.cmp }
         if(key==='fut'){ va = a.fut; vb = b.fut }
-        return (va - vb) * (dir==='desc'?-1:1)
+        return (va - vb) * (dir==='desc' ? -1 : 1)
       })
     }
     return arr

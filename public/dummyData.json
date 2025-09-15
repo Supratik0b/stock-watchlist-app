@@ -1,128 +1,146 @@
 [
   {
+    "id": 1,
     "symbol": "RELIANCE",
-    "cmp": 1036.79,
-    "fut": 1025.47,
-    "prevClose": 1049.85,
-    "updatedAt": 1757779284209
+    "cmp": 2915.45,
+    "fut": 2921.10,
+    "percentageChange": 0.84,
+    "updatedAt": "2025-09-05T06:40:00Z"
   },
   {
+    "id": 2,
     "symbol": "TCS",
-    "cmp": 1024.11,
-    "fut": 1028.54,
-    "prevClose": 1004.97,
-    "updatedAt": 1757780790914
+    "cmp": 3712.20,
+    "fut": 3715.75,
+    "percentageChange": -0.45,
+    "updatedAt": "2025-09-05T06:42:00Z"
   },
   {
+    "id": 3,
     "symbol": "INFY",
-    "cmp": 1089.58,
-    "fut": 1080.89,
-    "prevClose": 1102.35,
-    "updatedAt": 1757780846945
+    "cmp": 1585.10,
+    "fut": 1587.25,
+    "percentageChange": 0.25,
+    "updatedAt": "2025-09-05T06:45:00Z"
   },
   {
+    "id": 4,
     "symbol": "HDFCBANK",
-    "cmp": 1102.67,
-    "fut": 1109.84,
-    "prevClose": 1106.75,
-    "updatedAt": 1757781386054
+    "cmp": 1522.35,
+    "fut": 1524.80,
+    "percentageChange": 0.16,
+    "updatedAt": "2025-09-05T06:47:00Z"
   },
   {
+    "id": 5,
     "symbol": "ICICIBANK",
-    "cmp": 1148.14,
-    "fut": 1156.67,
-    "prevClose": 1135.16,
-    "updatedAt": 1757780537600
+    "cmp": 985.45,
+    "fut": 987.10,
+    "percentageChange": -0.12,
+    "updatedAt": "2025-09-05T06:49:00Z"
   },
   {
-    "symbol": "HINDUNILVR",
-    "cmp": 1148.17,
-    "fut": 1161.86,
-    "prevClose": 1155.41,
-    "updatedAt": 1757779908889
+    "id": 6,
+    "symbol": "HCLTECH",
+    "cmp": 1245.20,
+    "fut": 1248.55,
+    "percentageChange": 0.34,
+    "updatedAt": "2025-09-05T06:52:00Z"
   },
   {
-    "symbol": "AXISBANK",
-    "cmp": 1201.24,
-    "fut": 1200.32,
-    "prevClose": 1213.97,
-    "updatedAt": 1757781242914
+    "id": 7,
+    "symbol": "WIPRO",
+    "cmp": 422.15,
+    "fut": 423.65,
+    "percentageChange": -0.28,
+    "updatedAt": "2025-09-05T06:54:00Z"
   },
   {
-    "symbol": "LT",
-    "cmp": 1258.23,
-    "fut": 1245.15,
-    "prevClose": 1272.06,
-    "updatedAt": 1757779679139
-  },
-  {
+    "id": 8,
     "symbol": "SBIN",
-    "cmp": 1277.14,
-    "fut": 1265.12,
-    "prevClose": 1266.14,
-    "updatedAt": 1757781277451
+    "cmp": 575.30,
+    "fut": 578.20,
+    "percentageChange": 0.45,
+    "updatedAt": "2025-09-05T06:57:00Z"
   },
   {
+    "id": 9,
     "symbol": "KOTAKBANK",
-    "cmp": 1305.6,
-    "fut": 1291.49,
-    "prevClose": 1291.28,
-    "updatedAt": 1757781729241
+    "cmp": 1810.90,
+    "fut": 1812.45,
+    "percentageChange": 0.10,
+    "updatedAt": "2025-09-05T07:00:00Z"
   },
   {
+    "id": 10,
+    "symbol": "AXISBANK",
+    "cmp": 1042.25,
+    "fut": 1045.75,
+    "percentageChange": -0.22,
+    "updatedAt": "2025-09-05T07:03:00Z"
+  },
+  {
+    "id": 11,
+    "symbol": "LT",
+    "cmp": 2765.40,
+    "fut": 2771.85,
+    "percentageChange": 0.52,
+    "updatedAt": "2025-09-05T07:05:00Z"
+  },
+  {
+    "id": 12,
     "symbol": "BAJFINANCE",
-    "cmp": 1327.29,
-    "fut": 1325.72,
-    "prevClose": 1319.93,
-    "updatedAt": 1757779696337
+    "cmp": 6835.75,
+    "fut": 6840.20,
+    "percentageChange": -0.18,
+    "updatedAt": "2025-09-05T07:07:00Z"
   },
   {
-    "symbol": "MARUTI",
-    "cmp": 1309.19,
-    "fut": 1311.43,
-    "prevClose": 1328.88,
-    "updatedAt": 1757781834905
-  },
-  {
-    "symbol": "ADANIENT",
-    "cmp": 1350.85,
-    "fut": 1350.74,
-    "prevClose": 1340.18,
-    "updatedAt": 1757782206427
-  },
-  {
+    "id": 13,
     "symbol": "ITC",
-    "cmp": 1411.11,
-    "fut": 1402.26,
-    "prevClose": 1393.2,
-    "updatedAt": 1757780492207
+    "cmp": 448.30,
+    "fut": 450.15,
+    "percentageChange": 0.22,
+    "updatedAt": "2025-09-05T07:10:00Z"
   },
   {
-    "symbol": "NTPC",
-    "cmp": 1420.68,
-    "fut": 1406.33,
-    "prevClose": 1432.19,
-    "updatedAt": 1757781575222
+    "id": 14,
+    "symbol": "MARUTI",
+    "cmp": 9825.90,
+    "fut": 9831.25,
+    "percentageChange": 0.38,
+    "updatedAt": "2025-09-05T07:12:00Z"
   },
   {
+    "id": 15,
+    "symbol": "TITAN",
+    "cmp": 3280.40,
+    "fut": 3285.15,
+    "percentageChange": -0.30,
+    "updatedAt": "2025-09-05T07:14:00Z"
+  },
+  {
+    "id": 16,
+    "symbol": "ULTRACEMCO",
+    "cmp": 8880.60,
+    "fut": 8885.75,
+    "percentageChange": 0.12,
+    "updatedAt": "2025-09-05T07:17:00Z"
+  },
+  {
+    "id": 17,
     "symbol": "ONGC",
-    "cmp": 1457.57,
-    "fut": 1472.19,
-    "prevClose": 1450.38,
-    "updatedAt": 1757780324687
+    "cmp": 186.75,
+    "fut": 187.40,
+    "percentageChange": -0.08,
+    "updatedAt": "2025-09-05T07:20:00Z"
   },
   {
-    "symbol": "POWERGRID",
-    "cmp": 1446.01,
-    "fut": 1435.54,
-    "prevClose": 1460.71,
-    "updatedAt": 1757780126601
-  },
-  {
-    "symbol": "SUNPHARMA",
-    "cmp": 1500.77,
-    "fut": 1501.13,
-    "prevClose": 1498.56,
-    "updatedAt": 1757779910312
+    "id": 18,
+    "symbol": "ADANIGREEN",
+    "cmp": 1235.55,
+    "fut": 1240.10,
+    "percentageChange": 0.60,
+    "updatedAt": "2025-09-05T07:22:00Z"
   }
 ]

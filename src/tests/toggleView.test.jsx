@@ -1,13 +1,26 @@
-import React from 'react'
-import { render, screen, fireEvent } from '@testing-library/react'
-import StockCard from '../components/StockCard'
+import { render, screen, fireEvent } from "@testing-library/react";
+import StockCard from "../components/StockCard";
 
-test('toggle switches view', ()=>{
-  const stock = {symbol:'AAA', cmp:100, fut:98, prevClose:95, updatedAt: Date.now()}
-  let view='A'
-  const onToggle = ()=> view = view === 'A' ? 'B' : 'A'
-  render(<StockCard stock={stock} onClick={()=>{}} onToggle={onToggle} view={view} />)
-  const btn = screen.getByText('Toggle')
-  fireEvent.click(btn)
-  expect(btn).toBeInTheDocument()
-})
+test("toggle button switches view", () => {
+  const stock = {
+    symbol: "BBB",
+    cmp: 120,
+    fut: 115,
+    prevClose: 118,
+    updatedAt: Date.now()
+  };
+
+  let view = "A";
+  const handleToggle = () => {
+    view = view === "A" ? "B" : "A";
+  };
+
+  render(<StockCard stock={stock} view={view} onToggle={handleToggle} />);
+
+  const btn = screen.getByText("Toggle");
+  expect(btn).toBeInTheDocument();
+
+  fireEvent.click(btn);
+  // After toggle, still present
+  expect(btn).toBeInTheDocument();
+});

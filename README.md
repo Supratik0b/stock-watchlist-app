@@ -18,13 +18,13 @@ npm run test
 
 ## Clarifying questions I would have asked
 1. Should the dummy chart be a visual line chart or textual numbers? 
- I used Recharts visual line chart
+- I used Recharts visual line chart
 2. Are the exact colors/branding required? 
- I used neutral, accessible colors
+- I used neutral, accessible colors
 3. Should toggle view affect only the displayed line/chart or change the underlying data? 
- I implemented toggle as a per-card UI switch
+- I implemented toggle as a per-card UI switch
 4. Are there any accessibility requirements? 
- Basic a11y included - roles and labels
+ -Basic a11y included - roles and labels
 
 ## Assumptions
 - Dummy data is acceptable and stored in public/dummyData.json

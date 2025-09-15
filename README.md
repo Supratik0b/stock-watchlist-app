@@ -24,7 +24,7 @@ npm run test
 3. Should toggle view affect only the displayed line/chart or change the underlying data? 
 - I implemented toggle as a per-card UI switch
 4. Are there any accessibility requirements? 
--Basic accessibility included  roles and labels
+ - Basic accessibility included  roles and labels
 
 ## Assumptions
 - Dummy data is acceptable and stored in public/dummyData.json
